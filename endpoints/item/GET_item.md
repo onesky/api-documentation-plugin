@@ -8,8 +8,8 @@ Returns the item's attributes.
 ***
 
 ## Requires authentication
-* A valid Developer Key must be provided in **key** parameter.
-* A valid Developer Hash must be provided in **dev-hash** parameter.
+* A valid Developer Key must be provided in `key` parameter.
+* A valid Developer Hash must be provided in `dev-hash` parameter.
 
 ***
 
