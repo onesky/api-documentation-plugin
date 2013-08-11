@@ -33,7 +33,7 @@ None
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/project/:id/items/:itemId
+    GET https://api.plugin.onesky.io/1/project/:projectId/items/:id
 
 **Return** __shortened for example purpose__
 ``` json

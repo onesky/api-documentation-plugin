@@ -1,9 +1,9 @@
 # Item Resources
 
-    POST quotations
+    GET orders
 
 ## Description
-Returns a list of quotations.
+Returns a listing of orders in the platform.
 
 ***
 
@@ -14,16 +14,15 @@ Returns a list of quotations.
 ***
 
 ## Parameters
-- **from_locale** _(required)_ - the locale to be translated from, default base locale of the project
-- **locales** _(required)_ — locales to be translated to
-- **strings** _(required)_ - strings to be translated, simply an array
+- **page** _(optional)_ — page number for pagination, default 1.
+- **perpage** _(optional)_ - items to be returned per page, default 15.
 
 ***
 
 ## Return format
 An array with the following keys and values:
 
-- **quotations** — A set of quotations available.
+- **orders** — A set of orders made.
 
 ***
 
@@ -35,12 +34,12 @@ None
 ## Example
 **Request**
 
-    POST https://api.plugin.onesky.io/1/project/:projectId/quotations
+    GET https://api.plugin.onesky.io/1/project/:projectId/orders
 
 **Return** __shortened for example purpose__
 ``` json
 {
-    "quotations": [
+    "orders": [
         {
             "id": 123,
             "from_language": "English",
@@ -50,11 +49,15 @@ None
             "words": 2013,
             "per_word_cost": "0.01",
             "total_cost": "20.13",
-            "estimated_return_time": "2013-01-01 23:00:00 GMT+0",
-            "estimated_seconds_from_now": 1234567
-        },
+            "status": "in-progress",
+            "ordered_at": "2013-01-01 02:02:02 GMT+0",
+            "completed_at": null,
+            "translator":{
+                "name": "Yusuke T."
+            }
+       },
         {
-            "id": 124,
+            "id": 122,
             "from_language": "English",
             "from_locale": "en",
             "to_language": "Korean",
@@ -62,8 +65,12 @@ None
             "words": 2013,
             "per_word_cost": "0.01",
             "total_cost": "20.13",
-            "estimated_return_time": "2013-01-01 23:00:00 GMT+0",
-            "estimated_seconds_from_now": 1234567
+            "status": "completed",
+            "ordered_at": "2013-01-01 02:02:02 GMT+0",
+            "completed_at": "2013-01-03 02:02:02 GMT+0",
+            "translator":{
+                "name": "Jinny O."
+            }
         }
     ]
 }
