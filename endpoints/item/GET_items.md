@@ -8,13 +8,12 @@ Returns a listing of items in the platform.
 ***
 
 ## Requires authentication
-* A valid Developer Key must be provided in **key** parameter.
-* A valid Developer Hash must be provided in **dev-hash** parameter.
+* A valid Developer Key must be provided in `key` parameter.
+* A valid Developer Hash must be provided in `dev-hash` parameter.
 
 ***
 
 ## Parameters
-- **project** _(required)_ — project id storing the items.
 - **locale** _(optional)_ — locale for the items to display, default base language of the project setting.
 - **page** _(optional)_ — page number for pagination, default 1.
 - **perpage** _(optional)_ - items to be returned per page, default 15.
@@ -36,7 +35,7 @@ None
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/items
+    GET https://api.plugin.onesky.io/1/project/:id/items
 
 **Return** __shortened for example purpose__
 ``` json

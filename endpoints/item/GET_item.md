@@ -14,8 +14,7 @@ Returns the item's attributes.
 ***
 
 ## Parameters
-- **project** _(required)_ — project id storing the items.
-- **id** _(required)_ - item id
+None
 
 ***
 
@@ -34,7 +33,7 @@ None
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/items
+    GET https://api.plugin.onesky.io/1/project/:id/items/:itemId
 
 **Return** __shortened for example purpose__
 ``` json
