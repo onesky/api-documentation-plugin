@@ -40,6 +40,8 @@ None
 {
     "item": {
         "id": "post.101",
+        "createdAt":"2013-03-03 03:03:03 GMT+0",
+        "createdAtTimestamp":1328475945,
         "translateables": {
             "title": {
                 "name": "title",

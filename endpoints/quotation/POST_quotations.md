@@ -14,7 +14,7 @@ Returns a list of quotations.
 ***
 
 ## Parameters
-- **from_locale** _(required)_ - the locale to be translated from, default base locale of the project
+- **fromLocale** _(required)_ - the locale to be translated from, default base locale of the project
 - **locales** _(required)_ — locales to be translated to
 - **strings** _(required)_ - strings to be translated, simply an array
 
@@ -43,27 +43,29 @@ None
     "quotations": [
         {
             "id": 123,
-            "from_language": "English",
-            "from_locale": "en",
-            "to_language": "Japanese",
-            "to_locale": "jp",
+            "fromLanguage": "English",
+            "fromLocale": "en",
+            "toLanguage": "Japanese",
+            "toLocale": "jp",
             "words": 2013,
-            "per_word_cost": "0.01",
-            "total_cost": "20.13",
-            "estimated_return_time": "2013-01-01 23:00:00 GMT+0",
-            "estimated_seconds_from_now": 1234567
+            "perWordCost": "0.01",
+            "totalCost": "20.13",
+            "estimatedReturnDatetime": "2013-01-01 23:00:00 GMT+0",
+            "estimatedReturnTimestamp": 13453435132,
+            "estimatedSecondsFromNow": 1234567
         },
         {
-            "id": 124,
-            "from_language": "English",
-            "from_locale": "en",
-            "to_language": "Korean",
-            "to_locale": "ko",
+            "id": 122,
+            "fromLanguage": "English",
+            "fromLocale": "en",
+            "toLanguage": "Korean",
+            "toLocale": "ko",
             "words": 2013,
-            "per_word_cost": "0.01",
-            "total_cost": "20.13",
-            "estimated_return_time": "2013-01-01 23:00:00 GMT+0",
-            "estimated_seconds_from_now": 1234567
+            "perWordCost": "0.01",
+            "totalCost": "20.13",
+            "estimatedReturnDatetime": "2013-01-01 23:00:00 GMT+0",
+            "estimatedReturnTimestamp": 13453435132,
+            "estimatedSecondsFromNow": 1234567
         }
     ]
 }

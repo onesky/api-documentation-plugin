@@ -15,7 +15,7 @@ Returns a listing of orders in the platform.
 
 ## Parameters
 - **page** _(optional)_ — page number for pagination, default 1.
-- **perpage** _(optional)_ - items to be returned per page, default 15.
+- **rpp** _(optional)_ - items to be returned per page, default 15.
 
 ***
 
@@ -43,7 +43,8 @@ None
         {
             "id": 123,
             "content": "This is a message",
-            "created_at": "2012-03-03 03:03:03 GMT+0",
+            "createdAt": "2012-03-03 03:03:03 GMT+0",
+            "createdAtTimestamp": 13245678954,
             "author": {
                 "name": "Yusuke T."
             }
@@ -51,7 +52,8 @@ None
         {
             "id": 122,
             "content": "This is a message",
-            "created_at": "2012-03-03 03:03:03 GMT+0",
+            "createdAt": "2012-03-03 03:03:03 GMT+0",
+            "createdAtTimestamp": 13245678954,
             "author": {
                 "name": "OneSky"
             }
