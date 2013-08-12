@@ -1,9 +1,9 @@
-# Item Resources
+# Order Resources
 
-    POST quotations
+    POST orders
 
 ## Description
-Returns a list of quotations.
+Send an order to professional translators.
 
 ***
 
@@ -16,14 +16,15 @@ Returns a list of quotations.
 ## Parameters
 - **fromLocale** _(required)_ - the locale to be translated from, default base locale of the project
 - **toLocales** _(required)_ — locale ids to be translated to, comma separated, refer to [GET locales](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/locale/GET_locales.md)
-- **strings** _(required)_ - strings to be translated, a simple array
+- **items** _(required)_ - items to be translated, in [item format](https://github.com/onesky/api-documentation-plugin/blob/master/formats/item.md)
 
 ***
 
 ## Return format
 An array with the following keys and values:
 
-- **quotations** — A set of quotations available.
+- **orders** — A set of orders made.
+- **remainingCredits** - Amount of credits remaining.
 
 ***
 
@@ -35,27 +36,14 @@ None
 ## Example
 **Request**
 
-    POST https://api.plugin.onesky.io/1/project/:projectId/quotations
+    POST https://api.plugin.onesky.io/1/project/:projectId/orders
 
 **Return** __shortened for example purpose__
 ``` json
 {
-    "quotations": [
+    "orders": [
         {
             "id": 123,
-            "fromLanguage": "English",
-            "fromLocale": "en",
-            "toLanguage": "Japanese",
-            "toLocale": "jp",
-            "words": 2013,
-            "perWordCost": "0.01",
-            "totalCost": "20.13",
-            "estimatedReturnDatetime": "2013-01-01 23:00:00 GMT+0",
-            "estimatedReturnTimestamp": 13453435132,
-            "estimatedSecondsFromNow": 1234567
-        },
-        {
-            "id": 122,
             "fromLanguage": "English",
             "fromLocale": "en",
             "toLanguage": "Korean",
@@ -63,10 +51,30 @@ None
             "words": 2013,
             "perWordCost": "0.01",
             "totalCost": "20.13",
-            "estimatedReturnDatetime": "2013-01-01 23:00:00 GMT+0",
-            "estimatedReturnTimestamp": 13453435132,
-            "estimatedSecondsFromNow": 1234567
+            "status": "sent",
+            "orderedAt": "2013-01-01 02:02:02 GMT+0",
+            "orderedAtTimestamp": 13283746583,
+            "completedAt": null,
+            "completedAtTimestamp": 0,
+            "translator": null
+        },
+        {
+            "id": 123,
+            "fromLanguage": "English",
+            "fromLocale": "en",
+            "toLanguage": "Japanese",
+            "toLocale": "ja",
+            "words": 2013,
+            "perWordCost": "0.01",
+            "totalCost": "20.13",
+            "status": "sent",
+            "orderedAt": "2013-01-01 02:02:02 GMT+0",
+            "orderedAtTimestamp": 13283746583,
+            "completedAt": null,
+            "completedAtTimestamp": 0,
+            "translator": null
         }
-    ]
+    ],
+    "remainingCredits": "20.12"
 }
 ```
