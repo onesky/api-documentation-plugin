@@ -50,7 +50,7 @@ None
             "perWordCost": "0.01",
             "totalCost": "20.13",
             "status": "in-progress",
-            "orderedAt": "2013-01-01 02:02:02 GMT+0",
+            "orderedAt": "2013-08-15T08:12:40Z", // ISO String 
             "orderedAtTimestamp":13283746583,
             "completedAt": null,
             "completedAtTimestamp": 0,
@@ -68,7 +68,7 @@ None
             "perWordCost": "0.01",
             "totalCost": "20.13",
             "status": "completed",
-            "orderedAt": "2013-01-01 02:02:02 GMT+0",
+            "orderedAt": "2013-08-15T08:12:40Z",
             "orderedAtTimestamp":13283746583,
             "completedAt": null,
             "completedAtTimestamp": 0,
