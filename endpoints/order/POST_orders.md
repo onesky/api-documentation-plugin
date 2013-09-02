@@ -5,41 +5,26 @@
 ## Description
 Send an order to professional translators.
 
-***
 
 ## Requires authentication
-* A valid Developer Key must be provided in `key` parameter.
-* A valid Developer Hash must be provided in `dev-hash` parameter.
+- A valid Developer Key must be provided in `key` parameter.
+- A valid Developer Hash must be provided in `dev-hash` parameter.
+- Details described [here](/README.md#authentication)
 
-***
 
 ## Parameters
 - **fromLocale** _(required)_ - the locale to be translated from, default base locale of the project
-- **toLocales** _(required)_ — locale ids to be translated to, comma separated, refer to [GET locales](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/locale/GET_locales.md)
-- **items** _(required)_ - items to be translated, in [item format](https://github.com/onesky/api-documentation-plugin/blob/master/formats/item.md)
+- **toLocales** _(required)_ — locale ids to be translated to, comma separated, refer to [GET locales](/endpoints/locale/GET_locales.md)
+- **items** _(required)_ - items to be translated, in [item format](/formats/item.md)
 
-***
-
-## Return format
-An array with the following keys and values:
-
-- **orders** — A set of orders made.
-- **remainingCredits** - Amount of credits remaining.
-
-***
-
-## Errors
-None
-
-***
 
 ## Example
 **Request**
 
     POST https://api.plugin.onesky.io/1/project/:projectId/orders
 
-**Return** __shortened for example purpose__
-``` json
+**Response**
+```
 {
     "orders": [
         {
@@ -52,7 +37,7 @@ None
             "perWordCost": "0.01",
             "totalCost": "20.13",
             "status": "sent",
-            "orderedAt": "2013-01-01 02:02:02 GMT+0",
+            "orderedAt": "2013-01-01T02:02:02+0000",
             "orderedAtTimestamp": 13283746583,
             "completedAt": null,
             "completedAtTimestamp": 0,
@@ -68,7 +53,7 @@ None
             "perWordCost": "0.01",
             "totalCost": "20.13",
             "status": "sent",
-            "orderedAt": "2013-01-01 02:02:02 GMT+0",
+            "orderedAt": "2013-01-01T02:02:02+0000",
             "orderedAtTimestamp": 13283746583,
             "completedAt": null,
             "completedAtTimestamp": 0,
