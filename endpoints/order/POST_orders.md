@@ -14,8 +14,8 @@ Send an order to professional translators.
 
 ## Parameters
 - **fromLocale** _(required)_ - the locale to be translated from, default base locale of the project
-- **toLocales** _(required)_ — locale ids to be translated to, comma separated, refer to [GET locales](/endpoints/locale/GET_locales.md)
-- **items** _(required)_ - items to be translated, in [item format](/formats/item.md)
+- **toLocales** _(required)_ — locale codes to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, refer to [GET locales](/endpoints/locale/GET_locales.md)
+- **items** _(required)_ - items to be translated, in [item format](/reference/formats.md)
 
 
 ## Example
