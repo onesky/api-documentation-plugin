@@ -1,42 +1,28 @@
-# Item Resources
+# Locale Resources
 
     GET locales
 
 ## Description
-Returns a listing of locales in the platform.
+Returns all available locales in the platform.
 
-***
 
 ## Requires authentication
 * A valid Developer Key must be provided in `key` parameter.
 * A valid Developer Hash must be provided in `dev-hash` parameter.
+* Details described [here](/README.md#authentication)
 
-***
 
 ## Parameters
 None
 
-***
-
-## Return format
-An array with the following keys and values:
-
-- **locales** — A set of locales available.
-
-***
-
-## Errors
-None
-
-***
 
 ## Example
 **Request**
 
     GET https://api.plugin.onesky.io/1/locales
 
-**Return** __shortened for example purpose__
-``` json
+**Response**
+```
 {
     "locales": [
         {
