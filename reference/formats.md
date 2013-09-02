@@ -1,6 +1,6 @@
 # Formats reference
 
-## Items
+### Items
 ```
 [
     "item1": {
@@ -15,6 +15,6 @@
 ```
 
 
-## Strings
+### Strings
 ```
 ```
