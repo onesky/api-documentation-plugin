@@ -42,7 +42,9 @@ All of the endpoints require you to do authentication. You will have to find you
   > Formula: `md5(concatenate(<timestamp>, <api-secret>))`
 
 ## Request
-We accept request data in JSON format. Please specify request header with `content-type: application/json` and format the data in JSON.
+We accept request data in JSON format. Please specify request header with `content-type: application/json` and encode the data in JSON format.
+
+SSL is applied to protect all request data. Make sure you are using https to initiate request.
 
 ## Response
 Successful request will response with either `200` or `201` status code togehter with response data if there is. When there is a new record created, `201 Created` will be used. Otherwise, `200 OK` will apply.
