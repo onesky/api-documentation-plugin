@@ -1,43 +1,29 @@
-# Item Resources
+# Order Resources
 
     GET orders
 
 ## Description
 Returns a listing of orders in the platform.
 
-***
 
 ## Requires authentication
-* A valid Developer Key must be provided in `key` parameter.
-* A valid Developer Hash must be provided in `dev-hash` parameter.
+- A valid Developer Key must be provided in `key` parameter.
+- A valid Developer Hash must be provided in `dev-hash` parameter.
+- Details described [here](/README.md#authentication)
 
-***
 
 ## Parameters
 - **page** _(optional)_ — page number for pagination, default 1.
 - **rpp** _(optional)_ - items to be returned per page, default 15.
 
-***
-
-## Return format
-An array with the following keys and values:
-
-- **orders** — A set of orders made.
-
-***
-
-## Errors
-None
-
-***
 
 ## Example
 **Request**
 
     GET https://api.plugin.onesky.io/1/project/:projectId/orders
 
-**Return** __shortened for example purpose__
-``` json
+**Response**
+```
 {
     "orders": [
         {
@@ -50,7 +36,7 @@ None
             "perWordCost": "0.01",
             "totalCost": "20.13",
             "status": "in-progress",
-            "orderedAt": "2013-08-15T08:12:40Z", // ISO String 
+            "orderedAt": "2013-08-15T08:12:40+0000",
             "orderedAtTimestamp":13283746583,
             "completedAt": null,
             "completedAtTimestamp": 0,
@@ -68,7 +54,7 @@ None
             "perWordCost": "0.01",
             "totalCost": "20.13",
             "status": "completed",
-            "orderedAt": "2013-08-15T08:12:40Z",
+            "orderedAt": "2013-08-15T08:12:40+0000",
             "orderedAtTimestamp":13283746583,
             "completedAt": null,
             "completedAtTimestamp": 0,
