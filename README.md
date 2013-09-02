@@ -2,8 +2,6 @@
 
 OneSky Plugin API provides programmatic access to OneSky's translation service.
 
-***
-
 ## Endpoints
 
 #### Locale Resources
