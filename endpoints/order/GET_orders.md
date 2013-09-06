@@ -12,7 +12,7 @@ Returns a listing of orders in the platform.
 
 ## Parameters
 - **page** _(optional)_ - page number for pagination, default 1.
-- **rpp** _(optional)_ - items to be returned per page, default 15.
+- **per_page** _(optional)_ - items to be returned per page, default 15.
 
 
 ## Example
