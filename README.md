@@ -33,6 +33,9 @@ All of the endpoints require you to do authentication. You will have to find you
 - string `api-key`
   > Your own API key
 
+- string `api-secret`
+  > Your own API secret
+
 - int `timestamp`
   > Current unix timestamp
 
