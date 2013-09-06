@@ -7,8 +7,6 @@ Returns a listing of orders in the platform.
 
 
 ## Requires authentication
-- A valid Developer Key must be provided in `key` parameter.
-- A valid Developer Hash must be provided in `dev-hash` parameter.
 - Details described [here](/README.md#authentication)
 
 
@@ -20,7 +18,7 @@ Returns a listing of orders in the platform.
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/project/:projectId/orders
+    GET https://api.plugin.onesky.io/1/project/:project_id/orders
 
 **Response**
 ```
@@ -28,36 +26,36 @@ Returns a listing of orders in the platform.
     "orders": [
         {
             "id": 123,
-            "fromLanguage": "English",
-            "fromLocale": "en",
-            "toLanguage": "Korean",
-            "toLocale": "ko",
+            "from_language": "English",
+            "from_locale": "en",
+            "to_language": "Korean",
+            "to_locale": "ko",
             "words": 2013,
-            "perWordCost": "0.01",
-            "totalCost": "20.13",
+            "per_word_cost": "0.01",
+            "total_cost": "20.13",
             "status": "in-progress",
-            "orderedAt": "2013-08-15T08:12:40+0000",
-            "orderedAtTimestamp":13283746583,
-            "completedAt": null,
-            "completedAtTimestamp": 0,
+            "ordered_at": "2013-08-15T08:12:40+0000",
+            "ordered_at_timestamp":13283746583,
+            "completed_at": null,
+            "completed_at_timestamp": 0,
             "translator":{
                 "name": "Yusuke T."
             }
        },
         {
             "id": 122,
-            "fromLanguage": "English",
-            "fromLocale": "en",
-            "toLanguage": "Japanese",
-            "toLocale": "jp",
+            "from_language": "English",
+            "from_locale": "en",
+            "to_language": "Japanese",
+            "to_locale": "jp",
             "words": 2013,
-            "perWordCost": "0.01",
-            "totalCost": "20.13",
+            "per_word_cost": "0.01",
+            "total_cost": "20.13",
             "status": "completed",
-            "orderedAt": "2013-08-15T08:12:40+0000",
-            "orderedAtTimestamp":13283746583,
-            "completedAt": null,
-            "completedAtTimestamp": 0,
+            "ordered_at": "2013-08-15T08:12:40+0000",
+            "ordered_at_timestamp":13283746583,
+            "completed_at": null,
+            "completed_at_timestamp": 0,
             "translator":{
                 "name": "Jinny O."
             }
