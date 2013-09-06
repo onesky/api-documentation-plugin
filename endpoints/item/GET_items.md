@@ -7,8 +7,6 @@ Returns a listing of items in the platform.
 
 
 ## Requires authentication
-- A valid Developer Key must be provided in `key` parameter.
-- A valid Developer Hash must be provided in `dev-hash` parameter.
 - Details described [here](/README.md#authentication)
 
 
@@ -21,7 +19,7 @@ Returns a listing of items in the platform.
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/project/:projectId/items
+    GET https://api.plugin.onesky.io/1/project/:project_id/items
 
 **Response**
 ```
@@ -29,8 +27,8 @@ Returns a listing of items in the platform.
     "items": [
         {
             "id": "post.101",
-            "createdAt": "2013-03-03T03:03:03+0000",
-            "createdAtTimestamp": 1328475945,
+            "created_at": "2013-03-03T03:03:03+0000",
+            "created_at_timestamp": 1328475945,
             "translateables": {
                 "title": {
                     "name": "title",
@@ -48,8 +46,8 @@ Returns a listing of items in the platform.
         },
         {
             "id": "post.100",
-            "createdAt": "2013-03-03T03:03:03+0000",
-            "createdAtTimestamp": 1328475945,
+            "created_at": "2013-03-03T03:03:03+0000",
+            "created_at_timestamp": 1328475945,
             "translateables": {
                 "title": {
                     "name": "title",
