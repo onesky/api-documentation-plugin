@@ -5,7 +5,7 @@ OneSky Plugin API provides programmatic access to OneSky's translation service.
 ## Endpoints
 
 #### Locale Resources
-- **[**GET locales](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/locale/GET_locales.md)**
+- **[**GET locales**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/locale/GET_locales.md)
 
 
 #### Item Resources
