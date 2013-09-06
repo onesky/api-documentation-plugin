@@ -7,8 +7,6 @@ Returns a list of quotations.
 
 
 ## Requires authentication
-- A valid Developer Key must be provided in `key` parameter.
-- A valid Developer Hash must be provided in `dev-hash` parameter.
 - Details described [here](/README.md#authentication)
 
 
@@ -21,7 +19,7 @@ Returns a list of quotations.
 ## Example
 **Request**
 
-    POST https://api.plugin.onesky.io/1/project/:projectId/quotations
+    POST https://api.plugin.onesky.io/1/project/:project_id/quotations
 
 **Response**
 ```
@@ -29,29 +27,29 @@ Returns a list of quotations.
     "quotations": [
         {
             "id": 123,
-            "fromLanguage": "English",
-            "fromLocale": "en",
-            "toLanguage": "Japanese",
-            "toLocale": "jp",
+            "from_language": "English",
+            "from_locale": "en",
+            "to_language": "Japanese",
+            "to_locale": "jp",
             "words": 2013,
-            "perWordCost": "0.01",
-            "totalCost": "20.13",
-            "estimatedReturnDatetime": "2013-01-01T23:00:00+0000",
-            "estimatedReturnTimestamp": 13453435132,
-            "estimatedSecondsFromNow": 1234567
+            "per_word_cost": "0.01",
+            "total_cost": "20.13",
+            "estimated_return_datetime": "2013-01-01T23:00:00+0000",
+            "estimated_return_timestamp": 13453435132,
+            "estimated_seconds_from_now": 1234567
         },
         {
             "id": 122,
-            "fromLanguage": "English",
-            "fromLocale": "en",
-            "toLanguage": "Korean",
-            "toLocale": "ko",
+            "from_language": "English",
+            "from_locale": "en",
+            "to_language": "Korean",
+            "to_locale": "ko",
             "words": 2013,
-            "perWordCost": "0.01",
-            "totalCost": "20.13",
-            "estimatedReturnDatetime": "2013-01-01T23:00:00+0000",
-            "estimatedReturnTimestamp": 13453435132,
-            "estimatedSecondsFromNow": 1234567
+            "per_word_cost": "0.01",
+            "total_cost": "20.13",
+            "estimated_return_datetime": "2013-01-01T23:00:00+0000",
+            "estimated_return_timestamp": 13453435132,
+            "estimated_seconds_from_now": 1234567
         }
     ]
 }
