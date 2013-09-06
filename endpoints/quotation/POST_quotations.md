@@ -11,9 +11,9 @@ Returns a list of quotations.
 
 
 ## Parameters
-- **fromLocale** _(required)_ - the locale to be translated from, default base locale of the project
-- **toLocales** _(required)_ - locale ids to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, refer to [GET locales](/endpoints/locale/GET_locales.md)
-- **strings** _(required)_ - strings to be translated, format reference [here](/reference/formats.md#strings)
+- `fromLocale` _(required)_ - the locale to be translated from, default base locale of the project
+- `toLocales` _(required)_ - locale ids to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, refer to [GET locales](/endpoints/locale/GET_locales.md)
+- `strings` _(required)_ - strings to be translated, format reference [here](/reference/formats.md#strings)
 
 
 ## Example
