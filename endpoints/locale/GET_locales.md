@@ -24,14 +24,14 @@ None
 {
     "locales": [
         {
-            "id": "en-US",
+            "code": "en-US",
             "english_name": "English (United States)",
             "local_name": "English (United States)",
             "locale": "en",
             "region" : "US"
         },
         {
-            "id": "ja-JP",
+            "code": "ja-JP",
             "english_name": "Japanese",
             "local_name": "日本語",
             "locale": "ja",
