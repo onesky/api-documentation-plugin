@@ -22,7 +22,7 @@ Returns a listing of items in the platform.
     GET https://api.plugin.onesky.io/1/project/:project_id/items
 
 **Response**
-```
+``` json
 {
     "items": [
         {
