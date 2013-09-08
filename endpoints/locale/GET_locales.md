@@ -36,7 +36,8 @@ None
             "local_name": "日本語",
             "locale": "ja",
             "region" : "JP"
-        }
+        },
+        ...
     ]
 }
 ```
