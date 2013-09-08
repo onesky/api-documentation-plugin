@@ -20,7 +20,7 @@ None
     GET https://api.plugin.onesky.io/1/locales
 
 **Response**
-```
+``` json
 {
     "locales": [
         {
