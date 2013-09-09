@@ -4,25 +4,30 @@ OneSky Plugin API provides programmatic access to OneSky's translation service.
 
 ## Endpoints
 
+#### Account Resources
+- [**POST sign-up**](endpoints/account/POST_sign-up.md)
+- [**POST sign-in**](endpoints/account/POST_sign-in.md)
+
+
 #### Locale Resources
-- [**GET locales**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/locale/GET_locales.md)
+- [**GET locales**](endpoints/locale/GET_locales.md)
 
 
 #### Item Resources
 
-- [**GET items**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/item/GET_items.md)
-- [**GET items/:id**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/item/GET_items_id.md)
-- [**DELETE items/:id**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/item/DELETE_items_id.md)
+- [**GET items**](endpoints/item/GET_items.md)
+- [**GET items/:id**](endpoints/item/GET_items_id.md)
+- [**DELETE items/:id**](endpoints/item/DELETE_items_id.md)
 
 
 #### Order Resources
-- [**GET orders**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/order/GET_orders.md)
-- [**GET orders/:id/messages**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/order/GET_orders_id_messages.md)
-- [**POST orders**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/order/POST_orders.md)
+- [**GET orders**](/endpoints/order/GET_orders.md)
+- [**GET orders/:id/messages**](endpoints/order/GET_orders_id_messages.md)
+- [**POST orders**](endpoints/order/POST_orders.md)
 
 
 #### Quotation Resources
-- [**POST quotations**](https://github.com/onesky/api-documentation-plugin/blob/master/endpoints/quotation/POST_quotations.md)
+- [**POST quotations**](endpoints/quotation/POST_quotations.md)
 
 
 ## Authentication
