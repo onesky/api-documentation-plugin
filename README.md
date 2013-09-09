@@ -45,7 +45,7 @@ All of the endpoints require you to do authentication. You will have to find you
   > Formula: `md5(concatenate(<timestamp>, <api_secret>))`
 
 ## Request
-We accept request data in JSON format. Please specify request header with `content-type: application/json` and encode the data in JSON format.
+We accept request data in JSON format. Please specify request header with `content-type: application/json; charset=utf-8` and encode the data in JSON format.
 
 SSL is applied to protect all request data. Make sure you are using https to initiate request.
 
