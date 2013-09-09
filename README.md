@@ -33,9 +33,6 @@ All of the endpoints require you to do authentication. You will have to find you
 - string `api_key`
   > Your own API key
 
-- string `api_secret`
-  > Your own API secret
-
 - int `timestamp`
   > Current unix timestamp
 
@@ -57,4 +54,4 @@ Failure request will response with an error status code together with an error m
 {'code': 400, 'message': 'Your request cannot be processed'}
 ```
 
-Currently, we only support JSON data format in response.
+Currently, we only support JSON data format encoded in UTF-8 charset in response.
