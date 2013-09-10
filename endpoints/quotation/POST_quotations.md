@@ -22,7 +22,7 @@ Returns a list of quotations.
     POST https://api.plugin.onesky.io/1/project/:project_id/quotations
 
 **Response**
-```
+``` json
 {
     "quotations": [
         {
