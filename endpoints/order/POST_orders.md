@@ -22,7 +22,7 @@ Send an order to professional translators.
     POST https://api.plugin.onesky.io/1/project/:project_id/orders
 
 **Response**
-```
+``` json
 {
     "orders": [
         {
