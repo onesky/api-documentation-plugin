@@ -12,7 +12,8 @@ NONE
 
 ## Parameters
 - `email` _(required)_ - User email to register account.
-- `platform` _(required)_ - Platform of plugin such as `magento`
+- `platform` _(required)_ - Platform of plugin such as `magento`, `wordpress`
+- `locale` _(required)_ - Base language used by the project. i.e. `en-US`, `zh-TW`
 
 
 ## Example
