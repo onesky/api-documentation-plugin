@@ -27,10 +27,16 @@ Returns a list of quotations.
     "quotations": [
         {
             "id": 123,
-            "from_language": "English",
-            "from_locale": "en",
-            "to_language": "Japanese",
-            "to_locale": "jp",
+            "from": {
+                "locale": "en",
+                "name": "English",
+                "local_name": "English"
+            },
+            "to": {
+                "locale": "ja",
+                "name": "Japanese",
+                "local_name": "日本語"
+            },
             "words": 2013,
             "per_word_cost": "0.01",
             "total_cost": "20.13",
@@ -40,10 +46,16 @@ Returns a list of quotations.
         },
         {
             "id": 122,
-            "from_language": "English",
-            "from_locale": "en",
-            "to_language": "Korean",
-            "to_locale": "ko",
+            "from": {
+                "locale": "en",
+                "name": "English",
+                "local_name": "English"
+            },
+            "to": {
+                "locale": "ja",
+                "name": "Japanese",
+                "local_name": "日本語"
+            },
             "words": 2013,
             "per_word_cost": "0.01",
             "total_cost": "20.13",
