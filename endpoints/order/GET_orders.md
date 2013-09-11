@@ -26,15 +26,19 @@ Returns a listing of orders in the platform.
     "orders": [
         {
             "id": 123,
-            "from": {
+            "from_language": {
+                "code": "en-US",
+                "english_name": "English (United States)",
+                "local_name": "English (United States)",
                 "locale": "en",
-                "name": "English",
-                "local_name": "English"
+                "region" : "US"
             },
-            "to": {
+            "to_language": {
+                "code": "ja-JP",
+                "english_name": "Japanese",
+                "local_name": "日本語",
                 "locale": "ja",
-                "name": "Japanese",
-                "local_name": "日本語"
+                "region" : "JP"
             },
             "words": 2013,
             "per_word_cost": "0.01",
@@ -47,18 +51,22 @@ Returns a listing of orders in the platform.
             "translator":{
                 "name": "Yusuke T."
             }
-       },
+        },
         {
             "id": 122,
-            "from": {
+            "from_language": {
+                "code": "en-US",
+                "english_name": "English (United States)",
+                "local_name": "English (United States)",
                 "locale": "en",
-                "name": "English",
-                "local_name": "English"
+                "region" : "US"
             },
-            "to": {
-                "locale": "ja",
-                "name": "Japanese",
-                "local_name": "日本語"
+            "to_language": {
+                "code": "ko-KR",
+                "english_name": "Korean",
+                "local_name": "한국어",
+                "locale": "ko",
+                "region" : "KR"
             },
             "words": 2013,
             "per_word_cost": "0.01",
