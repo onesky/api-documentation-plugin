@@ -50,7 +50,7 @@ SSL is applied to protect all request data. Make sure you are using https to ini
 Successful request will response with either `200` or `201` status code togehter with response data if there is. When there is a new record created, `201 Created` will be used. Otherwise, `200 OK` will apply.
 
 Failure request will response with an error status code together with an error message:
-```
+``` json
 {'code': 400, 'message': 'Your request cannot be processed'}
 ```
 
