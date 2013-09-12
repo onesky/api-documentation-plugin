@@ -51,7 +51,7 @@ Successful request will response with either `200` or `201` status code togehter
 
 Failure request will response with an error status code together with an error message:
 ``` json
-{'code': 400, 'message': 'Your request cannot be processed'}
+{ "code": 400, "message": "Your request cannot be processed" }
 ```
 
 Currently, we only support JSON data format encoded in UTF-8 charset in response.
