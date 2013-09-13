@@ -16,6 +16,7 @@ Send an order to professional translators.
 - `items` _(required)_ - items to be translated, format reference [here](/reference/formats.md#items)
 - `tone` _(optional)_ - tone of the translation. `FORMAL`, `INFORMAL`, default not specified
 - `note` _(optional)_ - note for translator about the order
+- `is_including_review` _(optional)_ - if need to add extra reviewer. `1` or `0`, default `0`
 
 ## Example
 **Request**
