@@ -13,7 +13,9 @@ NONE
 ## Parameters
 - `email` _(required)_ - User email.
 - `password` _(required)_ - Account password.
-- `platform` _(required)_ - Platform of plugin such as `magento`, `wordpress`
+- `platform` _(required)_ - Platform of plugin such as `magento`.
+
+> For `platform`, currently we only support `magento`.
 
 
 ## Example
