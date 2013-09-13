@@ -1,7 +1,7 @@
 # Formats reference
 
 ### Items
-```
+``` json
 {
     [
         "item1": {
