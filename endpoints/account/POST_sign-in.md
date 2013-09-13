@@ -22,10 +22,21 @@ NONE
     POST https://api.plugin.onesky.io/1/sign-in
 
 **Response**
-```
+``` json
 {
     "api_key": "oieu3vt98y45b98y4n5ft9w89fRT6yeb",
     "api_secret": "9w458ynpwo5iunttfytwfpvevtERVTYw",
-    "project_id": 6385
+    "projects":
+        [
+            {
+                "name": "Magento",
+                "platform_id": 6835
+            },
+            {
+                "name": "Magento 2",
+                "platform_id": 6836
+            },
+            ...
+        ]
 }
 ```
