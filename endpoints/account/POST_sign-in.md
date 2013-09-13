@@ -31,12 +31,12 @@ NONE
     "projects":
         [
             {
-                "name": "Magento",
-                "platform_id": 6835
+                "id": 6835,
+                "name": "Magento"
             },
             {
-                "name": "Magento 2",
-                "platform_id": 6836
+                "id": 6836,
+                "name": "Magento 2"
             },
             ...
         ]
