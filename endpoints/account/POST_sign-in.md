@@ -13,9 +13,6 @@ NONE
 ## Parameters
 - `email` _(required)_ - User email.
 - `password` _(required)_ - Account password.
-- `platform` _(required)_ - Platform of plugin such as `magento`.
-
-> For `platform`, currently we only support `magento`.
 
 
 ## Example
@@ -26,17 +23,17 @@ NONE
 **Response**
 ``` json
 {
-    "api_key": "oieu3vt98y45b98y4n5ft9w89fRT6yeb",
-    "api_secret": "9w458ynpwo5iunttfytwfpvevtERVTYw",
-    "projects":
+    "accounts":
         [
             {
-                "id": 6835,
-                "name": "Magento"
+                "name": "Google",
+                "api_key": "188f46c1c3e1dfece67ea4cd20e6043b",
+                "api_secret": "ac9fcec178cc235d70d27fce682243b0"
             },
             {
-                "id": 6836,
-                "name": "Magento 2"
+                "name": "Amazon",
+                "api_key": "f0163e58fc5c9cda25bbc0a3e0671af7",
+                "api_secret": "3e1819d552bf9aa182be04f576a557b2"
             },
             ...
         ]
