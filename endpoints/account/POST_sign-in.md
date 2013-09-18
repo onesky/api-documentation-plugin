@@ -18,7 +18,7 @@ NONE
 ## Example
 **Request**
 
-    POST https://api.plugin.onesky.io/1/sign-in
+    POST https://api.plugin.onesky.io/1/accounts/sign-in
 
 **Response**
 ``` json
