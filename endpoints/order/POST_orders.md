@@ -47,6 +47,8 @@ status 201 Created
                 "locale": "ja",
                 "region" : "JP"
             },
+            "ordered_at": "2013-08-15T08:12:40+0000",
+            "ordered_at_timestamp":13283746583,
         },
         {
             "id": 122,
@@ -64,6 +66,8 @@ status 201 Created
                 "locale": "ko",
                 "region" : "KR"
             },
+            "ordered_at": "2013-08-15T08:12:40+0000",
+            "ordered_at_timestamp":13283746583,
         }
     ]
 }
