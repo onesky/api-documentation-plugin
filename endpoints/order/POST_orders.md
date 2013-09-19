@@ -27,3 +27,44 @@ Send an order to professional translators.
 ```
 status 201 Created
 ```
+``` json
+{
+    "amount": "50.00"
+    "orders": [
+        {
+            "id": 123,
+            "from_language": {
+                "code": "en-US",
+                "english_name": "English (United States)",
+                "local_name": "English (United States)",
+                "locale": "en",
+                "region" : "US"
+            },
+            "to_language": {
+                "code": "ja-JP",
+                "english_name": "Japanese",
+                "local_name": "日本語",
+                "locale": "ja",
+                "region" : "JP"
+            },
+        },
+        {
+            "id": 122,
+            "from_language": {
+                "code": "en-US",
+                "english_name": "English (United States)",
+                "local_name": "English (United States)",
+                "locale": "en",
+                "region" : "US"
+            },
+            "to_language": {
+                "code": "ko-KR",
+                "english_name": "Korean",
+                "local_name": "한국어",
+                "locale": "ko",
+                "region" : "KR"
+            },
+        }
+    ]
+}
+```
