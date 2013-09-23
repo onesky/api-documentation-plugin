@@ -14,7 +14,7 @@ Returns a list of quotations.
 - `from_locale` _(required)_ - the locale to be translated from, default base locale of the project
 - `to_locales` _(required)_ - locale ids to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, refer to [GET locales](/endpoints/locale/GET_locales.md)
 - `items` _(required)_ - strings to be translated, format reference [here](/reference/formats.md#items)
-- `is_including_review` _(optional)_ - if need to include 1 more reviewer, `1` or `0`, default `0`
+- `is_including_review` _(optional)_ - set translation review is required. `true` or `false`, default `false`
 
 ## Example
 **Request**
