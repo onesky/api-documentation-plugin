@@ -14,7 +14,7 @@ Send an order to professional translators.
 - `from_locale` _(required)_ - the locale to be translated from, default base locale of the project
 - `to_locales` _(required)_ - locale codes to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, refer to [GET locales](/endpoints/locale/GET_locales.md)
 - `items` _(required)_ - items to be translated, format reference [here](/reference/formats.md#items)
-- `tone` _(optional)_ - tone of the translation. `[FORMAL, INFORMAL]`, default not specified
+- `tone` _(optional)_ - tone of the translation. `['FORMAL', 'INFORMAL']`, default not specified
 - `note` _(optional)_ - note for translator about the order
 - `is_including_review` _(optional)_ - set translation review is required. `true` or `false`, default `false`
 
