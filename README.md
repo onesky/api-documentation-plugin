@@ -7,6 +7,7 @@ OneSky Plugin API provides programmatic access to OneSky's translation service.
 #### Account Resources
 - [**POST sign-up**](endpoints/account/POST_sign-up.md)
 - [**POST sign-in**](endpoints/account/POST_sign-in.md)
+- [**GET credit**](endpoints/account/GET_credit.md)
 
 
 #### Locale Resources
