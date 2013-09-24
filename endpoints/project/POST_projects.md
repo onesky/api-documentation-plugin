@@ -13,6 +13,7 @@ Create project of specified platform
 ## Parameters
 - `platform` _(required)_ - Platform of projects. Currently, only support `magento`
 - `name` _(required)_ - Name of the project such as `Glasses`
+- `locale` _(required)_ - Base language of the project such as `en-US`, refer to [GET locales](/endpoints/locale/GET_locales.md)
 
 
 ## Example
@@ -26,7 +27,15 @@ Create project of specified platform
     "project":
         {
             "id": 8777,
-            "name": "Glasses"
+            "name": "Glasses",
+            "platform": "Magento",
+            "base_language": {
+                "code": "ja-JP",
+                "english_name": "Japanese",
+                "local_name": "日本語",
+                "locale": "ja",
+                "region" : "JP"
+            }
         }
 }
 ```
