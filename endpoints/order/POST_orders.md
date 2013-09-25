@@ -17,7 +17,7 @@ Send an order to professional translators.
 - `tone` _(optional)_ - tone of the translation. `['FORMAL', 'INFORMAL']`, default not specified
 - `note` _(optional)_ - note for translator about the order
 - `is_including_review` _(optional)_ - set translation review is required. `true` or `false`, default `false`
-- `specialization` _(optional)_ - code of project specialization such as `game`, default `general`, please refer to [GET specializations](/endpoints/specialzation/GET_specializations.md)
+- `specialization` _(optional)_ - code of project specialization such as `game`, default `general`, please refer to [GET specializations](/endpoints/specialization/GET_specializations.md)
 
 
 ## Example
