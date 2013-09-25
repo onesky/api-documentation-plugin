@@ -27,7 +27,6 @@ Returns a list of quotations.
 {
     "quotations": [
         {
-            "id": 123,
             "from_language": {
                 "code": "en-US",
                 "english_name": "English (United States)",
@@ -50,7 +49,6 @@ Returns a list of quotations.
             "estimated_seconds_from_now": 1234567
         },
         {
-            "id": 122,
             "from_language": {
                 "code": "en-US",
                 "english_name": "English (United States)",
