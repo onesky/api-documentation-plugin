@@ -12,21 +12,21 @@ Returns a list of quotations.
 
 ## Parameters
 - `from_locale` _(required)_ - the locale to be translated from, default base locale of the project
-- `to_locales` _(required)_ - locale ids to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, refer to [GET locales](/endpoints/locale/GET_locales.md)
+- `to_locales` _(required)_ - locale ids to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, please refer to [GET locales](/endpoints/locale/GET_locales.md)
 - `items` _(required)_ - strings to be translated, format reference [here](/reference/formats.md#items)
 - `is_including_review` _(optional)_ - set translation review is required. `true` or `false`, default `false`
+- `specialization` _(optional)_ - code of project specialization such as `game`, default `general`, please refer to [GET specializations](/endpoints/specialization/GET_specializations.md)
 
 ## Example
 **Request**
 
-    POST https://api.plugin.onesky.io/1/project/:project_id/quotations
+    POST https://api.plugin.onesky.io/1/projects/:project_id/quotations
 
 **Response**
 ``` json
 {
     "quotations": [
         {
-            "id": 123,
             "from_language": {
                 "code": "en-US",
                 "english_name": "English (United States)",
@@ -49,7 +49,6 @@ Returns a list of quotations.
             "estimated_seconds_from_now": 1234567
         },
         {
-            "id": 122,
             "from_language": {
                 "code": "en-US",
                 "english_name": "English (United States)",

@@ -19,7 +19,7 @@ Returns a listing of items in the platform.
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/project/:project_id/items
+    GET https://api.plugin.onesky.io/1/projects/:project_id/items
 
 **Response**
 ``` json
