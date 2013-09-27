@@ -23,7 +23,7 @@ Send an order to professional translators.
 ## Example
 **Request**
 
-    POST https://api.plugin.onesky.io/1/projects/:project_id/orders
+    POST https://plugin.api.onesky.io/1/projects/:project_id/orders
 
 **Response**
 ```

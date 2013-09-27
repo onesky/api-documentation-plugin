@@ -18,7 +18,7 @@ Returns a listing of orders in the platform.
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/projects/:project_id/orders/:id/messages
+    GET https://api.plugin.onesky.io/1/projects/:project_id/orders/:order_id/messages
 
 **Response**
 ```

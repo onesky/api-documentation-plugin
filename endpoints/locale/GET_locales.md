@@ -17,7 +17,7 @@ None
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/locales
+    GET https://plugin.api.onesky.io/1/locales
 
 **Response**
 ``` json

@@ -19,7 +19,7 @@ Create project of specified platform
 ## Example
 **Request**
 
-    POST https://api.plugin.onesky.io/1/projects
+    POST https://plugin.api.onesky.io/1/projects
 
 **Response**
 ``` json

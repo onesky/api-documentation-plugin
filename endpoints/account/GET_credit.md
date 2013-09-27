@@ -17,7 +17,7 @@ NONE
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/accounts/credit
+    GET https://plugin.api.onesky.io/1/accounts/credit
 
 **Response**
 ``` json

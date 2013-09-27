@@ -1,9 +1,9 @@
-# Item Resources
+# Order Resources
 
-    GET items
+    GET orders/:order_id/items
 
 ## Description
-Returns a listing of items in the platform.
+Return details of an order
 
 
 ## Requires authentication
@@ -11,15 +11,13 @@ Returns a listing of items in the platform.
 
 
 ## Parameters
-- `locale` _(optional)_ - locale code for the items to display, reference response `code` [here](/endpoints/locale/GET_locales.md#Example) (sample: `en-US`), default base language of the project setting.
-- `page` _(optional)_ - page number for pagination, default 1.
-- `per_page` _(optional)_ - items to be returned per page, default 15.
+NONE
 
 
 ## Example
 **Request**
 
-    GET https://plugin.api.onesky.io/1/projects/:project_id/items
+    GET https://plugin.api.onesky.io/1/projects/:project_id/orders/:order_id/items
 
 **Response**
 ``` json
@@ -32,15 +30,21 @@ Returns a listing of items in the platform.
             "translateables": {
                 "title": {
                     "name": "title",
-                    "translations": {
-                        "en": "This is very attractive title"
-                    }
+                    "translations": [
+                        {
+                            "en": "This is very attractive title"
+                        },
+                        ...
+                    ]
                 },
                 "content": {
                     "name": "content",
-                    "translations": {
+                    "translations": [
+                        {
                         "en": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                    }
+                        },
+                        ...
+                    ]
                 }
             }
         },
@@ -51,15 +55,21 @@ Returns a listing of items in the platform.
             "translateables": {
                 "title": {
                     "name": "title",
-                    "translations": {
-                        "en": "This is very attractive title"
-                    }
+                    "translations": [
+                        {
+                            "en": "This is very attractive title"
+                        },
+                        ...
+                    ]
                 },
                 "content": {
                     "name": "content",
-                    "translations": {
+                    "translations": [
+                        {
                         "en": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                    }
+                        },
+                        ...
+                    ]
                 }
             }
         }

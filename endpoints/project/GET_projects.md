@@ -17,7 +17,7 @@ Retrieve all projects of specified platform
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/projects
+    GET https://plugin.api.onesky.io/1/projects
 
 **Response**
 ``` json
