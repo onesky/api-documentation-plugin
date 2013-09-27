@@ -24,54 +24,40 @@ NONE
 {
     "items": [
         {
-            "id": "post.101",
+            "id": "post2",
             "created_at": "2013-03-03T03:03:03+0000",
             "created_at_timestamp": 1328475945,
-            "translateables": {
+            "translateables": [
                 "title": {
                     "name": "title",
                     "translations": [
                         {
-                            "en": "This is very attractive title"
-                        },
-                        ...
-                    ]
-                },
-                "content": {
-                    "name": "content",
-                    "translations": [
-                        {
-                        "en": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                            "en-US": "design glasses",
+                            "zh-TW": "設計眼鏡",
+                            "ja-JP": "メガネのデザイン"
                         },
                         ...
                     ]
                 }
-            }
+            ]
         },
         {
-            "id": "post.100",
+            "id": "post1",
             "created_at": "2013-03-03T03:03:03+0000",
             "created_at_timestamp": 1328475945,
-            "translateables": {
-                "title": {
-                    "name": "title",
-                    "translations": [
-                        {
-                            "en": "This is very attractive title"
-                        },
-                        ...
-                    ]
-                },
+            "translateables": [
                 "content": {
                     "name": "content",
                     "translations": [
                         {
-                        "en": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
+                            "en-US": "design glasses description",
+                            "zh-TW": "設計的眼鏡描述",
+                            "ja-JP": "デザインのガラスの説明"
                         },
                         ...
                     ]
                 }
-            }
+            ]
         }
     ]
 }
