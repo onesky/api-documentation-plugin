@@ -1,6 +1,6 @@
 # Order Resources
 
-    GET orders/:id/messages
+    GET orders/:order_id/messages
 
 ## Description
 Returns a listing of orders in the platform.

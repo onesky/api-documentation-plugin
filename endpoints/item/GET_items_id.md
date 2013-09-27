@@ -1,6 +1,6 @@
 # Item Resources
 
-    GET item
+    GET items/:item_id
 
 ## Description
 Returns the item's attributes.

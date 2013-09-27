@@ -1,6 +1,6 @@
 # Item Resources
 
-    DELETE item
+    DELETE items/:item_id
 
 ## Description
 Returns the item's attributes.

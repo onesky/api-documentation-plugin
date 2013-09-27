@@ -17,7 +17,11 @@ NONE
 ## Example
 **Request**
 
+<<<<<<< HEAD
     GET https://plugin.api.onesky.io/1/projects/:project_id/orders/:order_id
+=======
+    GET https://api.plugin.onesky.io/1/projects/:project_id/orders/:order_id
+>>>>>>> 1936fca727ae8b9114793808a87c9a161f6cbf5b
 
 **Response**
 ``` json
