@@ -33,6 +33,7 @@ OneSky Plugin API provides programmatic access to OneSky's translation service.
 #### Order Resources
 - [**GET orders**](/endpoints/order/GET_orders.md)
 - [**GET orders/:id**](/endpoints/order/GET_orders_id.md)
+- [**GET orders/:id/items**](endpoints/order/GET_orders_id_items.md)
 - [**GET orders/:id/messages**](endpoints/order/GET_orders_id_messages.md)
 - [**POST orders**](endpoints/order/POST_orders.md)
 
