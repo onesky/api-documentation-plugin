@@ -1,6 +1,6 @@
 # Item Resources
 
-    GET item
+    GET items/:item_id
 
 ## Description
 Returns the item's attributes.
@@ -17,7 +17,7 @@ None
 ## Example
 **Request**
 
-    GET https://api.plugin.onesky.io/1/projects/:project_id/items/:id
+    GET https://api.plugin.onesky.io/1/projects/:project_id/items/:item_id
 
 **Response**
 ``` json
