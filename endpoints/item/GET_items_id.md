@@ -36,7 +36,7 @@ None
             "content": {
                 "translations": {
                     "en-US": "This is an attractive title",
-                    "zh-TW": "這是很有興的標題"
+                    "zh-TW": "很有趣的題目"
                 }
             }
         }
