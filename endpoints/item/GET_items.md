@@ -45,6 +45,13 @@ Returns a listing of items in the platform.
             "code": "post1",
             "created_at": "2013-03-03T03:03:03+0000",
             "created_at_timestamp": 1328475945,
+            "language": {
+                "code": "en-US",
+                "english_name": "English (United States)",
+                "local_name": "English (United States)",
+                "locale": "en",
+                "region" : "US"
+            },
             "translateables": {
                 "title": "How localization help your business (1)?",
                 "content": "This is a very attractive title"
