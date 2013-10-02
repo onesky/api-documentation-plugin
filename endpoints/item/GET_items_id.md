@@ -23,9 +23,8 @@ None
 ``` json
 {
     "item": {
+        "id": 2986,
         "code": "post2",
-        "created_at":"2013-03-03T03:03:03+0000",
-        "created_at_timestamp":1328475945,
         "translateables": {
             "title": {
                 "translations": {
@@ -39,7 +38,9 @@ None
                     "zh-TW": "很有趣的題目"
                 }
             }
-        }
+        },
+        "created_at":"2013-03-03T03:03:03+0000",
+        "created_at_timestamp":1328475945
     }
 }
 ```
