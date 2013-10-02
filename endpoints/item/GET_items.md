@@ -26,41 +26,37 @@ Returns a listing of items in the platform.
 {
     "items": [
         {
-            "id": "post.101",
+            "id": 2986,
+            "code": "post2",
+            "translateables": {
+                "title": "How localization help your business (2)?",
+                "content": "This is an attractive title"
+            },
             "created_at": "2013-03-03T03:03:03+0000",
             "created_at_timestamp": 1328475945,
-            "translateables": {
-                "title": {
-                    "name": "title",
-                    "translations": {
-                        "en": "This is very attractive title"
-                    }
-                },
-                "content": {
-                    "name": "content",
-                    "translations": {
-                        "en": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                    }
-                }
+            "language": {
+                "code": "en-US",
+                "english_name": "English (United States)",
+                "local_name": "English (United States)",
+                "locale": "en",
+                "region" : "US"
             }
         },
         {
-            "id": "post.100",
+            "id": 2985,
+            "code": "post1",
+            "translateables": {
+                "title": "How localization help your business (1)?",
+                "content": "This is a very attractive title"
+            },
             "created_at": "2013-03-03T03:03:03+0000",
             "created_at_timestamp": 1328475945,
-            "translateables": {
-                "title": {
-                    "name": "title",
-                    "translations": {
-                        "en": "This is very attractive title"
-                    }
-                },
-                "content": {
-                    "name": "content",
-                    "translations": {
-                        "en": "Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit..."
-                    }
-                }
+            "language": {
+                "code": "en-US",
+                "english_name": "English (United States)",
+                "local_name": "English (United States)",
+                "locale": "en",
+                "region" : "US"
             }
         }
     ]
