@@ -28,6 +28,10 @@ Returns a listing of items in the platform.
         {
             "id": 2986,
             "code": "post2",
+            "translateables": {
+                "title": "How localization help your business (2)?",
+                "content": "This is an attractive title"
+            },
             "created_at": "2013-03-03T03:03:03+0000",
             "created_at_timestamp": 1328475945,
             "language": {
@@ -36,15 +40,15 @@ Returns a listing of items in the platform.
                 "local_name": "English (United States)",
                 "locale": "en",
                 "region" : "US"
-            },
-            "translateables": {
-                "title": "How localization help your business (2)?",
-                "content": "This is an attractive title"
             }
         },
         {
             "id": 2985,
             "code": "post1",
+            "translateables": {
+                "title": "How localization help your business (1)?",
+                "content": "This is a very attractive title"
+            },
             "created_at": "2013-03-03T03:03:03+0000",
             "created_at_timestamp": 1328475945,
             "language": {
@@ -53,10 +57,6 @@ Returns a listing of items in the platform.
                 "local_name": "English (United States)",
                 "locale": "en",
                 "region" : "US"
-            },
-            "translateables": {
-                "title": "How localization help your business (1)?",
-                "content": "This is a very attractive title"
             }
         }
     ]
