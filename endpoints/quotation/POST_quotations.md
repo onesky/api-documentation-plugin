@@ -14,7 +14,6 @@ Returns a list of quotations.
 - `from_locale` _(required)_ - the locale to be translated from, default base locale of the project
 - `to_locales` _(required)_ - locale ids to be translated to, comma separated e.g. `'en-US,fr-FR,zh-TW'`, please refer to [GET locales](/endpoints/locale/GET_locales.md)
 - `items` _(required)_ - strings to be translated, format reference [here](/reference/formats.md#items)
-- `is_including_review` _(optional)_ - set translation review is required. `true` or `false`, default `false`
 - `specialization` _(optional)_ - code of project specialization such as `game`, default `general`, please refer to [GET specializations](/endpoints/specialization/GET_specializations.md)
 
 ## Example
@@ -27,6 +26,7 @@ Returns a list of quotations.
 {
     "quotations": [
         {
+            "words": 2013,
             "from_language": {
                 "code": "en-US",
                 "english_name": "English (United States)",
@@ -41,14 +41,23 @@ Returns a list of quotations.
                 "locale": "ja",
                 "region" : "JP"
             },
-            "words": 2013,
-            "per_word_cost": "0.01",
-            "total_cost": "20.13",
-            "estimated_return_datetime": "2013-01-01T23:00:00+0000",
-            "estimated_return_timestamp": 13453435132,
-            "estimated_seconds_from_now": 1234567
+            "translation": {
+                "per_word_cost": "0.01",
+                "total_cost": "20.13",
+                "estimated_return_datetime": "2013-01-01T23:00:00+0000",
+                "estimated_return_timestamp": 13453435132,
+                "estimated_seconds_from_now": 1234567
+            },
+            "translation_and_review": {
+                "per_word_cost": "0.02",
+                "total_cost": "40.26",
+                "estimated_return_datetime": "2013-01-02T23:00:00+0000",
+                "estimated_return_timestamp": 1357167600,
+                "estimated_seconds_from_now": 2345678
+            }
         },
         {
+            "words": 2013,
             "from_language": {
                 "code": "en-US",
                 "english_name": "English (United States)",
@@ -63,12 +72,20 @@ Returns a list of quotations.
                 "locale": "ko",
                 "region" : "KR"
             },
-            "words": 2013,
-            "per_word_cost": "0.01",
-            "total_cost": "20.13",
-            "estimated_return_datetime": "2013-01-01T23:00:00+0000",
-            "estimated_return_timestamp": 13453435132,
-            "estimated_seconds_from_now": 1234567
+            "translation": {
+                "per_word_cost": "0.01",
+                "total_cost": "20.13",
+                "estimated_return_datetime": "2013-01-01T23:00:00+0000",
+                "estimated_return_timestamp": 13453435132,
+                "estimated_seconds_from_now": 1234567
+            },
+            "translation_and_review": {
+                "per_word_cost": "0.02",
+                "total_cost": "40.26",
+                "estimated_return_datetime": "2013-01-02T23:00:00+0000",
+                "estimated_return_timestamp": 1357167600,
+                "estimated_seconds_from_now": 2345678
+            }
         }
     ]
 }
