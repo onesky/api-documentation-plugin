@@ -1,6 +1,6 @@
 # Language Pair Resources
 
-    GET language-pair
+    GET language-pairs
 
 ## Description
 Returns order supported language pairs
