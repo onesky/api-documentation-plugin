@@ -42,6 +42,10 @@ OneSky Plugin API provides programmatic access to OneSky's translation service.
 - [**POST quotations**](endpoints/quotation/POST_quotations.md)
 
 
+#### Language Pair Resources
+- [**GET language-pair**](endpoints/language_pair/GET_language_pairs.md)
+
+
 ## Authentication
 
 All of the endpoints require you to do authentication. You will have to find your own API key and API secret. First login to [oneskyapp](http://www.oneskyapp.com) and find the API key and secret in **Site Settings** under **API Keys & Usage**.
