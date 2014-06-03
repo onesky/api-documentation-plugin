@@ -11,7 +11,7 @@ Returns order supported language pairs
 
 
 ## Parameters
-- `source_locale` _(required)_ - locale code of source language, reference response `code` [here](/endpoints/locale/GET_locales.md#Example) (sample: `en-US`)
+- `from_locale` _(required)_ - locale code of language from, reference response `code` [here](/endpoints/locale/GET_locales.md#Example) (sample: `en-US`)
 
 
 ## Example
