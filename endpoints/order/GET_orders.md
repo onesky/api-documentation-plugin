@@ -26,13 +26,13 @@ Returns a listing of orders in the platform.
     "orders": [
         {
             "id": 123,
-            "amount": "358.00"
+            "amount": "358.00",
             "ordered_at": "2013-08-15T08:12:40+0000",
             "ordered_at_timestamp":13283746583
         },
         {
             "id": 122,
-            "amount": "1593.50"
+            "amount": "1593.50",
             "ordered_at": "2013-08-15T08:12:40+0000",
             "ordered_at_timestamp":13283746583
         }
