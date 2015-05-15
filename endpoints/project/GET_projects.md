@@ -23,7 +23,7 @@ Retrieve all projects of specified platform
 ``` json
 {
     "projects": {
-		"0": {
+        "0": {
             "id": 8356,
             "name": "Sportswear",
             "platform": "Magento",
@@ -33,7 +33,7 @@ Retrieve all projects of specified platform
                 "local_name": "English (United States)",
                 "locale": "en",
                 "region" : "US"
-        	}
+            }
         },
         "1": {
             "id": 8357,
