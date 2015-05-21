@@ -22,8 +22,8 @@ Retrieve all projects of specified platform
 **Response**
 ``` json
 {
-    "projects": [
-        {
+    "projects": {
+        "0": {
             "id": 8356,
             "name": "Sportswear",
             "platform": "Magento",
@@ -35,7 +35,7 @@ Retrieve all projects of specified platform
                 "region" : "US"
             }
         },
-        {
+        "1": {
             "id": 8357,
             "name": "Jeans",
             "platform": "Magento",
