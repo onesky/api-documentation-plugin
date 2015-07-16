@@ -22,7 +22,11 @@ Returns order supported language pairs
 **Response**
 ``` json
 {
-    "locales": [
+    "meta": {
+        "status": 200,
+        "record_count": 451
+    },    
+    "data": [
         {
             "code": "en-US",
             "english_name": "English (United States)",
