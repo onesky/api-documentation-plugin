@@ -23,13 +23,6 @@ OneSky Plugin API provides programmatic access to OneSky's translation service.
 - [**POST projects**](endpoints/project/POST_projects.md)
 
 
-#### Item Resources
-
-- [**GET items**](endpoints/item/GET_items.md)
-- [**GET items/:id**](endpoints/item/GET_items_id.md)
-- [**DELETE items/:id**](endpoints/item/DELETE_items_id.md)
-
-
 #### Order Resources
 - [**GET orders**](/endpoints/order/GET_orders.md)
 - [**GET orders/:id**](/endpoints/order/GET_orders_id.md)
