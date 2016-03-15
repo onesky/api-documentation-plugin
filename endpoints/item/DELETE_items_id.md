@@ -1,4 +1,4 @@
-# Item Resources
+# Item Resources ( Deprecated )
 
     DELETE items/:item_id
 
