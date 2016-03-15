@@ -1,4 +1,4 @@
-# Item Resources
+# Item Resources ( Deprecated )
 
     GET items
 
