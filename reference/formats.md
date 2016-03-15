@@ -1,6 +1,6 @@
 # Formats reference
 
-### Items
+### Items ( Deprecated )
 ``` json
 {
     "item1": {
